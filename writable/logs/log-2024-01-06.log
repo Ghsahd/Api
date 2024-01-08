@@ -1,0 +1,88 @@
+ERROR - 2024-01-06 13:44:58 --> mysqli_sql_exception: Unknown column 'id_buku_buku' in 'where clause' in C:\xampp\htdocs\REST\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\REST\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `bu...', 0)
+#1 C:\xampp\htdocs\REST\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `bu...')
+#2 C:\xampp\htdocs\REST\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `bu...')
+#3 C:\xampp\htdocs\REST\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `bu...', Array, false)
+#4 C:\xampp\htdocs\REST\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\REST\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\REST\app\Controllers\Crud\BukuDigitalController.php(90): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\REST\system\CodeIgniter.php(932): App\Controllers\Crud\BukuDigitalController->delete('3')
+#8 C:\xampp\htdocs\REST\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\BukuDigitalController))
+#9 C:\xampp\htdocs\REST\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\REST\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\REST\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-06 13:44:58 --> Unknown column 'id_buku_buku' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `buku_digital`
+WHERE `id_buku_buku` = \'3\'
+AND `id_buku_digital` IN (\'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `buku_digital`
+WHERE `id_buku_buku` = \'3\'
+AND `id_buku_digital` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `buku_digital`
+WHERE `id_buku_buku` = \'3\'
+AND `id_buku_digital` IN (\'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `buku_digital`
+WHERE `id_buku_buku` = :id_buku_buku:
+AND `id_buku_digital` IN :id_buku_digital:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Crud\BukuDigitalController.php(90): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\BukuDigitalController->delete('3')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\BukuDigitalController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+ERROR - 2024-01-06 13:45:04 --> mysqli_sql_exception: Unknown column 'id_buku_buku' in 'where clause' in C:\xampp\htdocs\REST\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\REST\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `bu...', 0)
+#1 C:\xampp\htdocs\REST\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `bu...')
+#2 C:\xampp\htdocs\REST\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `bu...')
+#3 C:\xampp\htdocs\REST\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `bu...', Array, false)
+#4 C:\xampp\htdocs\REST\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\REST\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\REST\app\Controllers\Crud\BukuDigitalController.php(90): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\REST\system\CodeIgniter.php(932): App\Controllers\Crud\BukuDigitalController->delete('3')
+#8 C:\xampp\htdocs\REST\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\BukuDigitalController))
+#9 C:\xampp\htdocs\REST\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\REST\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\REST\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-06 13:45:04 --> Unknown column 'id_buku_buku' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `buku_digital`
+WHERE `id_buku_buku` = \'3\'
+AND `id_buku_digital` IN (\'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `buku_digital`
+WHERE `id_buku_buku` = \'3\'
+AND `id_buku_digital` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `buku_digital`
+WHERE `id_buku_buku` = \'3\'
+AND `id_buku_digital` IN (\'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `buku_digital`
+WHERE `id_buku_buku` = :id_buku_buku:
+AND `id_buku_digital` IN :id_buku_digital:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Crud\BukuDigitalController.php(90): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\BukuDigitalController->delete('3')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\BukuDigitalController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+CRITICAL - 2024-01-06 13:47:02 --> Call to a member function where() on null
+in APPPATH\Controllers\Crud\PeminjamanOnlineController.php on line 119.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanOnlineController->delete('1')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanOnlineController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+CRITICAL - 2024-01-06 13:47:08 --> Call to a member function where() on null
+in APPPATH\Controllers\Crud\PeminjamanOnlineController.php on line 119.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanOnlineController->delete('1')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanOnlineController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')

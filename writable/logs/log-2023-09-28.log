@@ -1,0 +1,74 @@
+ERROR - 2023-09-28 14:50:29 --> mysqli_sql_exception: Unknown column 'jumlah' in 'field list' in C:\xampp\htdocs\REST\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\REST\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `jumlah`...', 0)
+#1 C:\xampp\htdocs\REST\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jumlah`...')
+#2 C:\xampp\htdocs\REST\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jumlah`...')
+#3 C:\xampp\htdocs\REST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `jumlah`...', Array, false)
+#4 C:\xampp\htdocs\REST\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\REST\app\Models\Peminjaman.php(71): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\REST\app\Controllers\Crud\PeminjamanController.php(46): App\Models\Peminjaman->getJumlah('BK003')
+#7 C:\xampp\htdocs\REST\system\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanController->create()
+#8 C:\xampp\htdocs\REST\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanController))
+#9 C:\xampp\htdocs\REST\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\REST\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\REST\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-09-28 14:50:29 --> Unknown column 'jumlah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `jumlah`
+FROM `peminjaman`
+WHERE `kode_buku` = \'BK003\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jumlah`
+FROM `peminjaman`
+WHERE `kode_buku` = \'BK003\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jumlah`
+FROM `peminjaman`
+WHERE `kode_buku` = \'BK003\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `jumlah`
+FROM `peminjaman`
+WHERE `kode_buku` = :kode_buku:', [...], false)
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Peminjaman.php(71): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Crud\PeminjamanController.php(46): App\Models\Peminjaman->getJumlah('BK003')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+ERROR - 2023-09-28 14:50:35 --> mysqli_sql_exception: Unknown column 'jumlah' in 'field list' in C:\xampp\htdocs\REST\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\REST\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `jumlah`...', 0)
+#1 C:\xampp\htdocs\REST\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jumlah`...')
+#2 C:\xampp\htdocs\REST\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jumlah`...')
+#3 C:\xampp\htdocs\REST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `jumlah`...', Array, false)
+#4 C:\xampp\htdocs\REST\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\REST\app\Models\Peminjaman.php(71): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\REST\app\Controllers\Crud\PeminjamanController.php(46): App\Models\Peminjaman->getJumlah('BK003')
+#7 C:\xampp\htdocs\REST\system\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanController->create()
+#8 C:\xampp\htdocs\REST\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanController))
+#9 C:\xampp\htdocs\REST\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\REST\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\REST\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-09-28 14:50:35 --> Unknown column 'jumlah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `jumlah`
+FROM `peminjaman`
+WHERE `kode_buku` = \'BK003\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jumlah`
+FROM `peminjaman`
+WHERE `kode_buku` = \'BK003\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jumlah`
+FROM `peminjaman`
+WHERE `kode_buku` = \'BK003\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `jumlah`
+FROM `peminjaman`
+WHERE `kode_buku` = :kode_buku:', [...], false)
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Peminjaman.php(71): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Crud\PeminjamanController.php(46): App\Models\Peminjaman->getJumlah('BK003')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')

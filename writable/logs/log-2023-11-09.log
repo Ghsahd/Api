@@ -1,0 +1,15 @@
+CRITICAL - 2023-11-09 11:58:38 --> Access level to App\Controllers\Crud\BukuRusakController::$model must be protected (as in class CodeIgniter\RESTful\BaseResource) or weaker
+in APPPATH\Controllers\Crud\BukuRusakController.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-09 12:01:27 --> Access level to App\Controllers\Crud\BukuRusakController::$model must be protected (as in class CodeIgniter\RESTful\BaseResource) or weaker
+in APPPATH\Controllers\Crud\BukuRusakController.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-09 12:30:50 --> explode(): Argument #2 ($string) must be of type string, array given
+in SYSTEMPATH\Router\Router.php on line 473.
+ 1 SYSTEMPATH\Router\Router.php(473): explode('::', [...])
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('api/bukuMasuk')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('api/bukuMasuk')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')

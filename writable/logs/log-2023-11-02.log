@@ -1,0 +1,28 @@
+ERROR - 2023-11-02 04:11:00 --> mysqli_sql_exception: Table 'anggota' already exists in C:\xampp\htdocs\REST\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\REST\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\REST\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\REST\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\REST\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\REST\app\Database\Migrations\2023-08-18-030035_Anggota.php(43): CodeIgniter\Database\Forge->createTable('anggota')
+#5 C:\xampp\htdocs\REST\system\Database\MigrationRunner.php(877): App\Database\Migrations\Anggota->up()
+#6 C:\xampp\htdocs\REST\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\REST\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\REST\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\REST\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\REST\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-11-02 04:11:51 --> mysqli_sql_exception: Table 'anggota' already exists in C:\xampp\htdocs\REST\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\REST\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\REST\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\REST\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\REST\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\REST\app\Database\Migrations\2023-08-18-030035_Anggota.php(43): CodeIgniter\Database\Forge->createTable('anggota')
+#5 C:\xampp\htdocs\REST\system\Database\MigrationRunner.php(877): App\Database\Migrations\Anggota->up()
+#6 C:\xampp\htdocs\REST\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\REST\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\REST\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\REST\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\REST\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}

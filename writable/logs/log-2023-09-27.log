@@ -1,0 +1,16 @@
+CRITICAL - 2023-09-27 06:30:57 --> Call to undefined method App\Models\AnggotaModel::findByNomorAnggota
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Crud\AnggotaController.php(33): CodeIgniter\Model->__call('findByNomorAnggota', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\AnggotaController->show('AGT004')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\AnggotaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+CRITICAL - 2023-09-27 06:37:17 --> Call to undefined method App\Models\AnggotaModel::findByNomorAnggota
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Crud\AnggotaController.php(117): CodeIgniter\Model->__call('findByNomorAnggota', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\AnggotaController->detailAnggota('AGT004')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\AnggotaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')

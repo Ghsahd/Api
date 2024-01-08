@@ -1,0 +1,14 @@
+WARNING - 2023-10-07 03:54:50 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\Crud\AnggotaController.php on line 54.
+ 1 APPPATH\Controllers\Crud\AnggotaController.php(54): password_hash(null, '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\AnggotaController->update('AGT005')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\AnggotaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+WARNING - 2023-10-07 04:06:11 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\Crud\AnggotaController.php on line 54.
+ 1 APPPATH\Controllers\Crud\AnggotaController.php(54): password_hash(null, '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\AnggotaController->update('AGT005')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\AnggotaController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')

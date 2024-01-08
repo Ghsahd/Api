@@ -1,0 +1,82 @@
+CRITICAL - 2023-11-12 15:23:39 --> Call to a member function findByNomorAnggota() on null
+in APPPATH\Controllers\Crud\PeminjamanController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanController->show('AGT005')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+CRITICAL - 2023-11-12 15:33:14 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Crud\PeminjamanController:riwyatPeminjaman/$1"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Crud\\PeminjamanController:riwyatPeminjaman/$1')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('api/riwayatPeminjaman/AGT005')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('api/riwayatPeminjaman/AGT005')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+CRITICAL - 2023-11-12 15:33:44 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Crud\PeminjamanController:riwayatPeminjaman/$1"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Crud\\PeminjamanController:riwayatPeminjaman/$1')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('api/riwayatPeminjaman/AGT005')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('api/riwayatPeminjaman/AGT005')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+CRITICAL - 2023-11-12 15:35:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::count()
+in APPPATH\Controllers\Crud\PeminjamanController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanController->riwayatPeminjaman('AGT005')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+CRITICAL - 2023-11-12 15:36:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::count()
+in APPPATH\Controllers\Crud\PeminjamanController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanController->riwayatPeminjaman('AGT005')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+CRITICAL - 2023-11-12 15:52:36 --> Call to undefined method App\Models\Peminjaman::getResult
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Crud\PeminjamanController.php(58): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanController->riwayatPeminjaman('AGT005')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+CRITICAL - 2023-11-12 16:18:18 --> Call to a member function getNumRows() on array
+in APPPATH\Controllers\Crud\PeminjamanController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanController->riwayatPeminjaman('AGT005')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+CRITICAL - 2023-11-12 16:40:12 --> Call to a member function getNumRows() on array
+in APPPATH\Controllers\Crud\PeminjamanController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanController->riwayatPeminjaman('AGT005')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+CRITICAL - 2023-11-12 16:53:34 --> Call to a member function getNumRows() on array
+in APPPATH\Controllers\Crud\PeminjamanController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanController->riwayatPeminjaman('AGT005')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+CRITICAL - 2023-11-12 17:05:03 --> Call to a member function getNumRows() on array
+in APPPATH\Controllers\Crud\PeminjamanController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanController->riwayatPeminjaman('AGT005')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
+CRITICAL - 2023-11-12 17:12:24 --> Call to a member function getNumRows() on array
+in APPPATH\Controllers\Crud\PeminjamanController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Crud\PeminjamanController->riwayatPeminjaman('AGT005')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud\PeminjamanController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\REST\\public\\index.php')
